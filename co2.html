@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-image: url('covbg.webp');
+            /* background-color:rgb(124, 194, 191); */
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            background-position: right;
+        }</style>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><font size="5px" family="comic sans MS" color="">
+    <center><h1>COVID-19 Test</h1></center>
+  <form>
+    <label for="name">Name:  </label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="contact">Contact Number:</label>
+    <input type="tel" id="contact" name="contact" required><br><br>
+
+    <label for="symptoms">Symptoms:</label><br>
+    <input type="checkbox" id="cough" name="symptoms" value="cough">
+    <label for="cough">Cough</label><br>
+    <input type="checkbox" id="fever" name="symptoms" value="fever">
+    <label for="fever">Fever</label><br>
+    <input type="checkbox" id="breathing" name="symptoms" value="breathing">
+    <label for="breathing">Difficulty Breathing</label><br><br>
+
+    <label for="travel">Have you recently traveled?</label><br>
+    <input type="radio" id="travel-yes" name="travel" value="yes">
+    <label for="travel-yes">Yes</label><br>
+    <input type="radio" id="travel-no" name="travel" value="no">
+    <label for="travel-no">No</label><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</font>
+</body>
+</html>

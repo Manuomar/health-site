@@ -1,0 +1,62 @@
+
+body{
+    /* background-image: url('bg1.jpg'); */
+    background-color: rgb(193 193 204);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+/* .covid{
+ border-style: solid;
+   border-radius: 70px;
+   border-width: 55px;
+
+
+    background-color: black;
+    
+} */
+.covid2{
+    padding: 10px;
+}
+.im1{
+    padding: 10px;
+}
+.im2{
+    position: absolute;
+    top: 470px;
+    left: 450px;
+    }
+.im3{
+        position: absolute;
+        top: 470px;
+        right: 150px;
+        }
+.im4{
+    padding: 10px;
+}
+.im5{
+    position: absolute;
+    top: 860px;
+    left: 450px;
+    }
+
+/*im5{
+    position: absolute;
+    top: 70px;
+    left: 450px;
+    bottom: 100px; }*/
+    .im6{
+        position: absolute;
+        top: 860px;
+        right: 150px;
+        }
+        .im8{
+            position: absolute;
+            top: 1240px;
+            left: 450px;
+            }
+            .im9{
+                position: absolute;
+                top: 1240px;
+                right: 150px;
+                }
